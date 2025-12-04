@@ -1,6 +1,6 @@
 .how-it-works {
   padding: 6rem 5%;
-  background: linear-gradient(135deg, #FAFBFF 0%, #F0F1FF 100%);
+  background: var(--color-bg);
 }
 
 .steps-container {

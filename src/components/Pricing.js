@@ -33,7 +33,7 @@ const Pricing = () => {
         'Analytics avancées',
         'Support prioritaire'
       ],
-      cta: 'Essai 14 jours gratuit 🎉',
+      cta: 'Essai 14 jours gratuit',
       featured: true
     },
     {
@@ -51,7 +51,7 @@ const Pricing = () => {
         'Account manager dédié',
         'Support 24h'
       ],
-      cta: 'Parler à un expert 👋',
+      cta: 'Parler à un expert',
       featured: false
     }
   ];
@@ -59,7 +59,7 @@ const Pricing = () => {
   return (
     <section className="pricing" id="pricing">
       <div className="section-header">
-        <span className="section-badge">💎 Prix transparents</span>
+        <span className="section-badge">Prix transparents</span>
         <h2>Un plan pour chaque besoin</h2>
         <p>Commencez gratuitement, upgradez quand vous êtes prêt</p>
       </div>

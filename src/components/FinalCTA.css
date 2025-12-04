@@ -1,6 +1,6 @@
 .final-cta {
   padding: 6rem 5%;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+  background: var(--color-primary);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -51,8 +51,8 @@
 }
 
 .final-cta .btn-primary:hover {
-  background: var(--color-accent);
-  color: var(--color-dark);
+  background: var(--color-bg-light);
+  color: var(--color-primary);
 }
 
 @media (max-width: 768px) {

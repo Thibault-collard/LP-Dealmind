@@ -5,7 +5,6 @@ import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import Pricing from './components/Pricing';
 import FinalCTA from './components/FinalCTA';
-import Footer from './components/Footer';
 import './App.css';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <HowItWorks />
       <Pricing />
       <FinalCTA />
-      <Footer />
     </div>
   );
 }

@@ -88,7 +88,7 @@ const Features = () => {
   return (
     <section className="features" id="features">
       <div className="section-header">
-        <span className="section-badge">🎨 Tout-en-un</span>
+        <span className="section-badge">Tout-en-un</span>
         <h2>Tout ce qu'il faut pour prospecter comme un pro</h2>
         <p>Une plateforme complète qui automatise chaque étape de votre prospection commerciale</p>
       </div>
