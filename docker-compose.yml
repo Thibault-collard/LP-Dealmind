@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  dealmind-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
+    container_name: dealmind-landing
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+
